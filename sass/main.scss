@@ -5,7 +5,14 @@
 
 
 // ================================
-// Base Styles
+// Base 
 // ================================
 @import 'base/normalize',
         'base/base';
+
+// ================================
+// Layout 
+// ==========n=====================
+@import 'layout/container',
+        'layout/header',
+        'layout/footer';

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +7,18 @@
   <title>Minimo</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Open+Sans|Source+Serif+Pro:400,600" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
   <div class="container">
     <header>
+      <!-- Site Logo -->
+      <h2 class="logo">Minimo</h2>
+      
       <!-- The hamburger icon -->
       <a href="">
         <span class="fas fa-bars"></span>
       </a>
-      
-      <!-- Site Logo -->
-      <h2 class="logo">Minimo</h2>
       
       <!-- Site Navigation -->
       <nav>
@@ -81,9 +81,9 @@
       </section>
     </main>
 
-    <section>
+    <section class="signup">
       <h2>Sign up for our newsletter!</h2>
-      <form action="" method="post">
+      <form action="#" method="post">
         <input type="text">
       </form>
     </section>
@@ -105,19 +105,25 @@
 
         <button>Load More</button>
     </section>
+  </div> <!-- container --> 
 
     <footer>
-      <a href="#"><p>Terms and Conditions</a>
-      <a href="#">Privacy</a>
-
-      <ul>
-        <li>Follow</li>
-        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-      </ul>
+      <div class="container">
+        <div class="footer-contain">
+          <ul class="copyright">
+            <li></li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+    
+          <ul class="social">
+            <li>Follow</li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div> <!-- container -->
     </footer>
-  </div>
   <script src="main.js"></script>
 </body>
 </html>

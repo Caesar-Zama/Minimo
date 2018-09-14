@@ -307,11 +307,8 @@ body {
   font-size: 16px;
   line-height: 1.5; }
 
-header,
-section,
-main,
-footer {
-  border: 1px solid #000000; }
+p {
+  color: #191919; }
 
 ul {
   padding: 0;
@@ -324,5 +321,21 @@ a {
 img {
   max-width: 100%;
   height: auto; }
+
+.container {
+  padding-left: 6%;
+  padding-right: 6%; }
+
+header {
+  display: flex; }
+  header .logo {
+    margin-right: auto; }
+
+footer {
+  background: #e5e5e5; }
+  footer .footer-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
 
 /*# sourceMappingURL=main.css.map */
