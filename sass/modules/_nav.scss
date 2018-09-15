@@ -1,0 +1,44 @@
+// Off-Canvas Navigation Layout
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 0; // Will expand 250px
+  height: 100%;
+  display: none;
+  // Navigation container
+  &__links {
+    padding-top: 55px;
+    height: 100%;
+    background: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+    // Individual Nav links 
+    &-link {
+      padding: 8px 8px 8px 32px;
+      font-size: pixel-to-em(25px);
+      color: #a1a1a1;
+      display: block;
+      transition: 0.3s;
+      
+      &:hover {
+        color: #818181;
+      }
+    } //.nav-link 
+  } // .nav__links
+  
+  &__open {
+    margin-top: 22px;
+    font-size: pixel-to-em(24px);
+  }
+
+  // Nav close button
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: pixel-to-em(28px);
+  }
+}

@@ -15,22 +15,23 @@
       <h2 class="logo">Minimo</h2>
       
       <!-- The hamburger icon -->
-      <a href="">
+      <a class="js-open nav__open" href="">
         <span class="fas fa-bars"></span>
       </a>
       
       <!-- Site Navigation -->
-      <nav>
+      <nav class="nav">
+        <ul class="nav__links">
         <!-- The close icon inside of navigation -->
-        <a href="">
-          <span class="fas fa-times"></span>
-        </a>
-
-        <ul>
-          <li><a href="#">Lifestyle</a></li>
-          <li><a href="#">Photodiary</a></li>
-          <li><a href="#">Music</a></li>
-          <li><a href="#">Travel</a></li>
+          <li class="js-close nav__close nav__links-link">
+            <a href="#">
+              <span class="fas fa-times"></span>
+            </a>
+          </li>
+          <li class="nav__links-link"><a href="#">Lifestyle</a></li>
+          <li class="nav__links-link"><a href="#">Photodiary</a></li>
+          <li class="nav__links-link"><a href="#">Music</a></li>
+          <li class="nav__links-link"><a href="#">Travel</a></li>
         </ul>
       </nav>
     </header>
@@ -40,45 +41,43 @@
     </section>
    
     <main class="container">
-      <section>
-        <h4>Photodiary</h4>
-        <h2>The perfect weekend getaway</h2>
-
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-
-        <h4>Leave a comment</h4>
-      </section>
-
-      <section>
-        <article>
-          <img src="assets/music.jpg" alt="">
-          <h4>Lifestyle</h4>
-          <h2>More than just a music festival</h2>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+      <section class="cards">
+        <article class="cards__card cards__card--lg">
+          <h4 class="cards__card-meta">Photodiary</h4>
+          <h2 class="cards__card-title">The perfect weekend getaway</h2>
+          <p class="cards__card-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+          <h4 class="cards__card-meta">Leave a comment</h4>
+        </article>
+      
+        <article class="cards__card">
+          <img class="cards__card-img" src="assets/music.jpg" alt="">
+          <h4 class="cards__card-meta">Lifestyle</h4>
+          <h2 class="cards__card-title">More than just a music festival</h2>
+          <p class="cards__card-content">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
         </article>
 
-        <article>
-            <img src="assets/coffee.jpg" alt="">
-            <h4>Lifestyle</h4>
-            <h2>Life taste better with coffee</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+        <article class="cards__card">
+            <img class="cards__card-img" src="assets/coffee.jpg" alt="">
+            <h4 class="cards__card-meta">Lifestyle</h4>
+            <h2 class="cards__card-title">Life taste better with coffee</h2>
+            <p class="cards__card-content">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
         </article>
 
-        <article>
-            <img src="assets/friends.jpg" alt="">
-            <h4>Lifestyle</h4>
-            <h2>American dream</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+        <article class="cards__card">
+            <img class="cards__card-img" src="assets/friends.jpg" alt="">
+            <h4 class="cards__card-meta">Lifestyle</h4>
+            <h2 class="cards__card-title">American dream</h2>
+            <p class="cards__card-content">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
         </article>
 
-        <article>
-            <img src="assets/mountain-view.jpg" alt="">
-            <h4>Lifestyle</h4>
-            <h2>A day exploring the Alps</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+        <article class="cards__card">
+            <img class="cards__card-img" src="assets/mountain-view.jpg" alt="">
+            <h4 class="cards__card-meta">Lifestyle</h4>
+            <h2 class="cards__card-title">A day exploring the Alps</h2>
+            <p class="cards__card-content">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
         </article>
-      </section>
-    </main>
+      </section> <!-- cards -->
+    </main> <!-- container -->
 
     <section class="signup">
       <div class="container">
@@ -90,22 +89,24 @@
     </section>
 
     <section class="container">
-        <article>
-            <img src="assets/travel-1.jpg" alt="">
-            <h4>Lifestyle</h4>
-            <h2>Top 10 song for running</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+      <section class="cards">
+        <article class="cards__card">
+            <img class="cards__card-img" src="assets/travel-1.jpg" alt="">
+            <h4 class="cards__card-meta">Lifestyle</h4>
+            <h2 class="cards__card-title">Top 10 song for running</h2>
+            <p class="cards__card-content">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
         </article>
-
-        <article>
-            <img src="assets/travel-2.jpg" alt="">
-            <h4>Lifestyle</h4>
-            <h2>Cold winter days</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+  
+        <article class="cards__card">
+            <img class="cards__card-img" src="assets/travel-2.jpg" alt="">
+            <h4 class="cards__card-meta">Lifestyle</h4>
+            <h2 class="cards__card-title">Cold winter days</h2>
+            <p class="cards__card-content">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
         </article>
-
+  
         <button>Load More</button>
-    </section>
+      </section> <!-- cards -->
+    </section> <!-- container -->
    
     <footer>
       <div class="container">
