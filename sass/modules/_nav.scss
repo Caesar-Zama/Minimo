@@ -6,15 +6,15 @@
   z-index: 1;
   width: 0; // Will expand 250px
   height: 100%;
-  display: none;
+  transition: 0.5s;
+  
   // Navigation container
   &__links {
-    padding-top: 55px;
+    padding-top: 10px;
     height: 100%;
     background: #111;
     overflow-x: hidden;
-    transition: 0.5s;
-
+    
     // Individual Nav links 
     &-link {
       padding: 8px 8px 8px 32px;
@@ -29,6 +29,7 @@
     } //.nav-link 
   } // .nav__links
   
+  // Nav open button
   &__open {
     margin-top: 22px;
     font-size: pixel-to-em(24px);
@@ -36,9 +37,8 @@
 
   // Nav close button
   &__close {
-    position: absolute;
-    top: 0;
-    right: 20px;
+    position: relative;
+    left: 170px;
     font-size: pixel-to-em(28px);
   }
 }

@@ -356,13 +356,12 @@ footer {
   z-index: 1;
   width: 0;
   height: 100%;
-  display: none; }
+  transition: 0.5s; }
   .nav__links {
-    padding-top: 55px;
+    padding-top: 10px;
     height: 100%;
     background: #111;
-    overflow-x: hidden;
-    transition: 0.5s; }
+    overflow-x: hidden; }
     .nav__links-link {
       padding: 8px 8px 8px 32px;
       font-size: 1.5625em;
@@ -375,9 +374,8 @@ footer {
     margin-top: 22px;
     font-size: 1.5em; }
   .nav__close {
-    position: absolute;
-    top: 0;
-    right: 20px;
+    position: relative;
+    left: 170px;
     font-size: 1.75em; }
 
 /*# sourceMappingURL=main.css.map */
