@@ -314,8 +314,7 @@ h4 {
   font-family: "Open Sans", sans-serif; }
 
 p {
-  color: #191919;
-  text-align: justify; }
+  color: #191919; }
 
 ul {
   padding: 0;
@@ -377,5 +376,14 @@ footer {
     position: relative;
     left: 170px;
     font-size: 1.75em; }
+
+.cards__card-meta {
+  font-size: 0.9375em;
+  font-weight: 100;
+  color: #a1a1a1; }
+
+.cards__card-title {
+  font-size: 1.625em;
+  line-height: 1.2; }
 
 /*# sourceMappingURL=main.css.map */
