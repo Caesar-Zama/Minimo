@@ -339,14 +339,17 @@ header {
     margin-right: auto; }
 
 footer {
-  background: #e5e5e5; }
+  background: #f3f3f3; }
   footer .footer-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center; }
 
 .signup {
-  background: #ccc; }
+  padding-top: 20px;
+  min-height: 250px;
+  text-align: center;
+  background: #f1f1e5; }
 
 .nav {
   position: fixed;
