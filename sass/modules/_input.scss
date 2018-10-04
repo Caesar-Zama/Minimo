@@ -1,0 +1,16 @@
+.cta {
+  width: 90%;
+  padding: 6px 0;
+  font-size: pixel-to-em(14px);
+  border-radius: 0;
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
+  background: #f3f3f3;
+  box-shadow: none;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: aqua; /* TEMPORARY*/
+  }
+}

@@ -389,4 +389,19 @@ footer {
   font-size: 1.625em;
   line-height: 1.2; }
 
+.cta {
+  width: 90%;
+  padding: 6px 0;
+  font-size: 0.875em;
+  border-radius: 0;
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
+  background: #f3f3f3;
+  box-shadow: none; }
+  .cta:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: aqua;
+    /* TEMPORARY*/ }
+
 /*# sourceMappingURL=main.css.map */
