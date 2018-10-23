@@ -329,6 +329,10 @@ img {
   max-width: 100%;
   height: auto; }
 
+ion-icon {
+  font-size: 24px; }
+
+/* Form submit btn */
 .container {
   padding-left: 6%;
   padding-right: 6%; }
@@ -403,5 +407,10 @@ footer {
     box-shadow: none;
     border-color: aqua;
     /* TEMPORARY*/ }
+
+.cta-btn {
+  position: relative;
+  right: 25px;
+  bottom: -7px; }
 
 /*# sourceMappingURL=main.css.map */
