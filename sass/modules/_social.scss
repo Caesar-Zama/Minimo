@@ -1,0 +1,11 @@
+.social {
+  width: 28%;
+  display: flex;
+  justify-content: space-between;
+  &__link {
+    font-size: pixel-to-em(18px);
+    color: #808080;
+    transition: 0.5s;
+    &:hover {color: #a9a9a9;}
+  }
+}

@@ -348,6 +348,8 @@ header {
 footer {
   background: #f3f3f3; }
   footer .footer-wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center; }
@@ -439,5 +441,16 @@ footer {
   margin: 20px auto auto auto;
   padding: 7px 16px;
   border: 1px solid #191919; }
+
+.social {
+  width: 28%;
+  display: flex;
+  justify-content: space-between; }
+  .social__link {
+    font-size: 1.125em;
+    color: #808080;
+    transition: 0.5s; }
+    .social__link:hover {
+      color: #a9a9a9; }
 
 /*# sourceMappingURL=main.css.map */
