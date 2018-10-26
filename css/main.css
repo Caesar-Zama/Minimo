@@ -333,7 +333,7 @@ form {
   padding-left: 30px; }
 
 ion-icon {
-  font-size: 24px; }
+  font-size: 22px; }
 
 /* Form submit btn */
 .container {
@@ -387,6 +387,11 @@ footer {
     left: 170px;
     font-size: 1.75em; }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto; }
+
 .cards__card-meta {
   font-size: 0.9375em;
   font-weight: 100;
@@ -414,6 +419,25 @@ footer {
 .cta-btn {
   position: relative;
   right: 25px;
-  bottom: -7px; }
+  bottom: -6px; }
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto; }
+
+.cards__card-meta {
+  font-size: 0.9375em;
+  font-weight: 100;
+  color: #a1a1a1; }
+
+.cards__card-title {
+  font-size: 1.625em;
+  line-height: 1.2; }
+
+.btn {
+  margin: 20px auto auto auto;
+  padding: 7px 16px;
+  border: 1px solid #191919; }
 
 /*# sourceMappingURL=main.css.map */
