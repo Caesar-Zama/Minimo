@@ -18,10 +18,7 @@ h4 {
   font-family: $fs-accent;
 }
 
-p {
-  color: #191919;
-  // text-align: justify;
-}
+p {color: #191919;}
 
 ul {
   padding: 0;
@@ -39,6 +36,10 @@ img {
   height: auto;
 }
 
-form {padding-left: 30px;}
+form {
+  max-width: 500px;
+  margin: auto;
+  padding-left: 30px;
+}
 
 ion-icon {font-size: 22px;} /* Form submit btn */

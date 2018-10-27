@@ -1,6 +1,9 @@
 .signup {
-  padding-top: 20px; 
+  padding-top: 10%; 
   min-height: 250px;
   text-align: center;
   background: #f3f3f3;
+  @media (min-width: pixel-to-em(700px)) {
+    padding-top: 5%;
+  }
 }

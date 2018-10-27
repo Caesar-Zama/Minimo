@@ -1,0 +1,12 @@
+.copyright {
+  &__link {font-size: pixel-to-em(14px);}
+  
+  // Place Copyight links on same line
+  @media (min-width: pixel-to-em(700px)) {
+    & {
+      width: 200px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

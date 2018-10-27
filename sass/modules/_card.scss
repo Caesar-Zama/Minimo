@@ -4,13 +4,20 @@
   margin: 40px auto;
 }
 
-.cards__card-meta {
-  font-size: pixel-to-em(15px);
-  font-weight: 100;
-  color: #a1a1a1;
+.cards__card {
+  margin-bottom: 20px;
+  
+  // Card meta title 
+  &-meta {
+    font-size: pixel-to-em(15px);
+    font-weight: 100;
+    color: #a1a1a1;
+  }
+  
+  // Article Title
+  &-title {
+    font-size: pixel-to-em(26px);
+    line-height: 1.2;
+  }
 }
 
-.cards__card-title {
-  font-size: pixel-to-em(26px);
-  line-height: 1.2;
-}
