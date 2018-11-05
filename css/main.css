@@ -342,6 +342,10 @@ ion-icon {
   padding-left: 6%;
   padding-right: 6%; }
 
+@media (min-width: 800px) {
+  .img-container {
+    height: 250px; } }
+
 header {
   display: flex; }
   header .logo {
@@ -395,12 +399,27 @@ footer {
     font-size: 1.75em; }
 
 .cards {
+  margin: 40px auto;
   display: flex;
-  flex-direction: column;
-  margin: 40px auto; }
+  flex-direction: column; }
+  @media (min-width: 50em) {
+    .cards {
+      flex-direction: row;
+      flex-wrap: wrap; } }
 
 .cards__card {
-  margin-bottom: 20px; }
+  max-width: 600px;
+  margin: 0 auto 20px; }
+  @media (min-width: 50em) {
+    .cards__card {
+      margin-bottom: 50px;
+      padding-left: 1em;
+      padding-right: 1em;
+      flex: 50%; } }
+  @media (min-width: 50em) {
+    .cards__card-img {
+      width: 100%;
+      height: 100%; } }
   .cards__card-meta {
     font-size: 0.9375em;
     font-weight: 100;
@@ -408,6 +427,10 @@ footer {
   .cards__card-title {
     font-size: 1.625em;
     line-height: 1.2; }
+  @media (min-width: 50em) {
+    .cards__card--lg {
+      max-width: 100%;
+      flex: 100%; } }
 
 .cta {
   width: 85%;
@@ -430,12 +453,27 @@ footer {
   bottom: -6px; }
 
 .cards {
+  margin: 40px auto;
   display: flex;
-  flex-direction: column;
-  margin: 40px auto; }
+  flex-direction: column; }
+  @media (min-width: 50em) {
+    .cards {
+      flex-direction: row;
+      flex-wrap: wrap; } }
 
 .cards__card {
-  margin-bottom: 20px; }
+  max-width: 600px;
+  margin: 0 auto 20px; }
+  @media (min-width: 50em) {
+    .cards__card {
+      margin-bottom: 50px;
+      padding-left: 1em;
+      padding-right: 1em;
+      flex: 50%; } }
+  @media (min-width: 50em) {
+    .cards__card-img {
+      width: 100%;
+      height: 100%; } }
   .cards__card-meta {
     font-size: 0.9375em;
     font-weight: 100;
@@ -443,6 +481,10 @@ footer {
   .cards__card-title {
     font-size: 1.625em;
     line-height: 1.2; }
+  @media (min-width: 50em) {
+    .cards__card--lg {
+      max-width: 100%;
+      flex: 100%; } }
 
 .btn {
   margin: 20px auto auto auto;

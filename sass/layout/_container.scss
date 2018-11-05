@@ -1,5 +1,16 @@
 .container {
-  // border: 1px solid red;
-  padding-left: 6%;
-  padding-right:6%;
+  padding-left:  6%;
+  padding-right: 6%;
+}
+
+// Equal height images in 2 column flex grid
+.img-container {
+  @media (min-width: 800px) {
+    height: 250px;
+  }
+}
+
+// Wraps card content
+.content-wrapper {
+  // max-width: 90%;
 }

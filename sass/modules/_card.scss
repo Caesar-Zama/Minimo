@@ -1,12 +1,35 @@
+// Card Container
 .cards {
+  margin: 40px auto;
   display: flex;
   flex-direction: column;
-  margin: 40px auto;
+
+  @media (min-width: pixel-to-em(800px)) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
+// Card
 .cards__card {
-  margin-bottom: 20px;
-  
+  max-width: 600px;
+  margin: 0 auto 20px;
+
+  @media (min-width: pixel-to-em(800px)) {
+    margin-bottom: 50px;
+    padding-left: 1em;
+    padding-right: 1em;
+    flex: 50%;
+  }
+
+  // Card Image
+  &-img {
+    @media (min-width: pixel-to-em(800px)) {
+      width: 100%;
+      height: 100%;
+    }
+  }  
+
   // Card meta title 
   &-meta {
     font-size: pixel-to-em(15px);
@@ -14,10 +37,17 @@
     color: #a1a1a1;
   }
   
-  // Article Title
+  // Card Title
   &-title {
     font-size: pixel-to-em(26px);
     line-height: 1.2;
   }
-}
 
+  // Large Card
+  &--lg {
+    @media (min-width: pixel-to-em(800px)) {
+      max-width: 100%;
+      flex: 100%;
+    }
+  }
+}
