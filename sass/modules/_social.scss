@@ -10,6 +10,7 @@
     &:hover {color: #a9a9a9;}
   }
 
+  // Decrease the gap between social links
   @media (min-width: pixel-to-em(700px)) {
     & {width: 102px;}
   }

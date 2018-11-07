@@ -377,26 +377,47 @@ footer {
   width: 0;
   height: 100%;
   transition: 0.5s; }
+  @media (min-width: 56.25em) {
+    .nav {
+      position: relative;
+      z-index: none;
+      width: auto;
+      height: auto; } }
   .nav__links {
     padding-top: 10px;
     height: 100%;
     background: #111;
     overflow-x: hidden; }
+    @media (min-width: 56.25em) {
+      .nav__links {
+        display: flex;
+        padding-top: 18px;
+        height: auto;
+        background: none; } }
     .nav__links-link {
       padding: 8px 8px 8px 32px;
-      font-size: 1.5625em;
+      font-size: 1.125em;
       color: #a1a1a1;
       display: block;
       transition: 0.3s; }
+      @media (min-width: 56.25em) {
+        .nav__links-link {
+          color: #191919; } }
       .nav__links-link:hover {
         color: #818181; }
   .nav__open {
     margin-top: 22px;
     font-size: 1.5em; }
+    @media (min-width: 56.25em) {
+      .nav__open {
+        display: none; } }
   .nav__close {
     position: relative;
     left: 170px;
     font-size: 1.75em; }
+    @media (min-width: 56.25em) {
+      .nav__close {
+        display: none; } }
 
 .cards {
   margin: 40px auto;

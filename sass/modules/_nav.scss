@@ -1,27 +1,47 @@
+// ================================ 
 // Off-Canvas Navigation Layout
+// ================================
+
 .nav {
   position: fixed;
   top: 0;
   right: 0;
   z-index: 1;
-  width: 0; // Will expand 250px
+  width: 0; 
   height: 100%;
   transition: 0.5s;
   
+  @media (min-width: pixel-to-em(900px)) {
+    position: relative;
+    z-index: none;
+    width: auto;
+    height: auto;
+  }
+
   // Navigation container
   &__links {
     padding-top: 10px;
     height: 100%;
     background: #111;
     overflow-x: hidden;
+
+    @media (min-width: pixel-to-em(900px)) {
+      display: flex;
+      padding-top: 18px;
+      height: auto;
+      background: none; 
+    }
     
     // Individual Nav links 
     &-link {
       padding: 8px 8px 8px 32px;
-      font-size: pixel-to-em(25px);
+      font-size: pixel-to-em(18px);
       color: #a1a1a1;
       display: block;
       transition: 0.3s;
+      @media (min-width: pixel-to-em(900px)) {
+        color: #191919;
+      }
       
       &:hover {
         color: #818181;
@@ -29,16 +49,24 @@
     } //.nav-link 
   } // .nav__links
   
-  // Nav open button
+  // Nav open button (Hambuger icon)
   &__open {
     margin-top: 22px;
     font-size: pixel-to-em(24px);
+    
+    @media (min-width: pixel-to-em(900px)) {
+      display: none;
+    }
   }
 
-  // Nav close button
+  // Nav close button ("X" icon)
   &__close {
     position: relative;
     left: 170px;
     font-size: pixel-to-em(28px);
+    
+    @media (min-width: pixel-to-em(900px)) {
+      display: none;
+    }
   }
 }
