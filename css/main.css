@@ -342,9 +342,16 @@ ion-icon {
   padding-left: 6%;
   padding-right: 6%; }
 
-@media (min-width: 800px) {
+@media (min-width: 50em) {
   .img-container {
     height: 250px; } }
+@media (min-width: 66.25em) {
+  .img-container {
+    height: 280px; } }
+
+.headline-container {
+  max-height: 580px;
+  overflow: hidden; }
 
 header {
   display: flex; }
