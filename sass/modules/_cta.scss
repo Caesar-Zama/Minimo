@@ -5,15 +5,24 @@
   border-radius: 0;
   border-width: 0 0 1px 0;
   border-style: none none solid none;
+  border-color: #000;
   background: #f3f3f3;
   box-shadow: none;
 
   &:focus {
     outline: none;
     box-shadow: none;
-    border-color: aqua; /* TEMPORARY*/
+    border-width: 0 0 2px 0; /* TEMPORARY*/
   }
 }
+
+.cta-title {
+  @media (min-width: pixel-to-em(1140px)) {
+    font-size: 1.8em;
+    margin-bottom: 60px;
+  }
+}
+
 
 .cta-btn {
   position: relative;

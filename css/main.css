@@ -375,6 +375,9 @@ footer {
   @media (min-width: 43.75em) {
     .signup {
       padding-top: 5%; } }
+  @media (min-width: 71.25em) {
+    .signup {
+      padding-top: 3%; } }
 
 .nav {
   position: fixed;
@@ -467,13 +470,19 @@ footer {
   border-radius: 0;
   border-width: 0 0 1px 0;
   border-style: none none solid none;
+  border-color: #000;
   background: #f3f3f3;
   box-shadow: none; }
   .cta:focus {
     outline: none;
     box-shadow: none;
-    border-color: aqua;
+    border-width: 0 0 2px 0;
     /* TEMPORARY*/ }
+
+@media (min-width: 71.25em) {
+  .cta-title {
+    font-size: 1.8em;
+    margin-bottom: 60px; } }
 
 .cta-btn {
   position: relative;
